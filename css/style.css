@@ -5,7 +5,8 @@
     --bg-black-900: #f2f2fc;
     --bg-black-100: #fdf9ff;
     --bg-black-50: #e8dfec;
-    --text-black-900: #2e4d2e;
+    /*--text-black-900: #2e4d2e;*/
+    --text-black-900: black;
     --text-black-700: #504e70;
 }
 
@@ -336,19 +337,19 @@ ul{
 }
 
 h3.hello{
-    font-size: 28px;
-    max-width: 65%;
+    font-size: 30px;
+    max-width: 85%;
 }
 
 h3.hello span{
     font-family: 'Clicker Script', cursive;
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 55px;
+    font-weight: 800;
     color: var(--skin-color);
 }
 
 h3.my-profession{
-    font-size: 25px;
+    font-size: 28px;
     margin: 15px 0;
 }
 
@@ -367,6 +368,7 @@ h3.my-profession{
     max-width: 40%;
     text-align: center;
     position: relative;
+    transform: scale(1.1);
 }
 
 .home-img::after
@@ -412,7 +414,7 @@ h3.my-profession{
 }
 
 .about .about-content .about-text h3{
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 15px;
     font-weight: 700;
     color: var(--text-black-900);
@@ -424,7 +426,7 @@ h3.my-profession{
 }
 
 .about .about-content .about-text p{
-    font-size: 16px;
+    font-size: 19px;
     line-height: 25px;
     color: var(--text-black-700);
 }
@@ -443,7 +445,7 @@ h3.my-profession{
 .about .about-content .personal-info .info-item p{
     font-weight: 600;
     padding: 10px 0;
-    font-size: 16px;
+    font-size: 18px;
     color: var(--text-black-900);
     border-bottom: 1px solid var(--bg-black-50);
 }
